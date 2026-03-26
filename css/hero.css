@@ -4,7 +4,7 @@
   background: url(../img/hero-mobile.jpg) no-repeat center / cover;
 }
 
-.hero h2 {
+.hero p {
   padding: 88px 24px;
   font-weight: var(--text-weight);
   font-size: 20px;
@@ -18,7 +18,7 @@
     background: url(../img/hero-tablet.jpg) no-repeat center / cover;
   }
 
-  .hero h2 {
+  .hero p {
     padding: 88px 60px;
     font-size: 32px;
   }
@@ -30,7 +30,7 @@
     background: url(../img/hero-desktop.jpg) no-repeat center / cover;
   }
 
-  .hero h2 {
+  .hero p {
     padding: 104px 120px;
   }
 }
