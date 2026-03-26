@@ -36,3 +36,20 @@
   margin-bottom: 24px;
   line-height: 39px;
 }
+
+@media (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card section h3 {
+    font-size: 48px;
+    line-height: 59px;
+  }
+
+  .card section p {
+    font-size: 40px;
+    line-height: 49px;
+  }
+}
