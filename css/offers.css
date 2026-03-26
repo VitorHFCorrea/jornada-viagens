@@ -1,0 +1,38 @@
+.card {
+  color: var(--text-secondary-color);
+  background-color: black; /*provisorio*/
+  width: 312px;
+  height: 288px;
+  padding: 24px 16px;
+  text-align: center;
+  border-radius: 16px;
+  font-weight: var(--title-weight);
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  padding: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  line-height: 32px;
+}
+
+.card section {
+  text-align: center;
+}
+
+.card section h3 {
+  font-size: 40px;
+  margin-bottom: 24px;
+  line-height: 49px;
+}
+
+.card section p {
+  font-size: 32px;
+  margin-bottom: 24px;
+  line-height: 39px;
+}
