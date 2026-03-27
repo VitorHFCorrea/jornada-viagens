@@ -5,7 +5,7 @@
 }
 
 .hero p {
-  padding: 88px 24px;
+  padding: 88px 24px 0px;
   font-weight: var(--text-weight);
   font-size: 20px;
   text-align: center;
