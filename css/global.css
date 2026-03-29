@@ -32,12 +32,13 @@ body {
   color: var(--text-primary-color);
 }
 
-.section-title{
-  margin-top: 88px;
+.section-title {
+  width: 312px;
+  margin: 88px auto 0px;
 }
 
 .section-title h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: var(--title-weight);
   text-align: center;
 }
@@ -67,6 +68,10 @@ body {
 }
 
 @media (min-width: 768px) {
+  .section-title {
+    width: 100%;
+  }
+
   .section-title h2 {
     font-size: 32px;
   }
