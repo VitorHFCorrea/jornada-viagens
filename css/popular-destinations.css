@@ -1,0 +1,80 @@
+.destination-items {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.destination-items .destination {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-self: center;
+}
+
+.destination-img {
+  width: 100%;
+  height: 360px;
+  align-self: center;
+}
+
+.tokyo {
+  background: url(../img/tokyo-mobile.jpg) no-repeat center center / cover;
+}
+
+.osaka {
+  background: url(../img/osaka-mobile.jpg) no-repeat center center / cover;
+}
+
+.destination h4 {
+  font-size: 28px;
+}
+
+.destination p {
+  font-size: 20px;
+}
+
+.destination .button {
+  text-align: center;
+  width: 100%;
+  max-width: 340px;
+}
+
+@media (min-width: 768px) {
+  .destination {
+    width: 100%;
+  }
+
+  .destination-img {
+    height: 452px;
+  }
+
+  .tokyo {
+    background: url(../img/tokyo-tablet-desk.jpg) no-repeat center center /
+      cover;
+  }
+
+  .osaka {
+    background: url(../img/osaka-tablet-desk.jpg) no-repeat center center /
+      cover;
+  }
+
+  .destination .button {
+    width: 280px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .destination-items {
+    flex-direction: row;
+    justify-self: center;
+    gap: 24px;
+  }
+
+  .destination {
+    max-width: 588px;
+  }
+
+  .destination-img {
+    height: 453px;
+  }
+}

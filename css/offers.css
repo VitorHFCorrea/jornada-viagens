@@ -12,7 +12,6 @@
   padding: 24px 16px;
   text-align: center;
   border-radius: 16px;
-  font-weight: var(--title-weight);
 }
 
 .offers-cards .card header {
@@ -28,6 +27,7 @@
 }
 
 .offers-cards .card section {
+  width: 100%;
   text-align: center;
 }
 
@@ -46,7 +46,7 @@
 .offers-cards .card.japao {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/japao-mobile.jpeg) no-repeat center / cover;
+    url(../img/japan-mobile.jpeg) no-repeat center / cover;
   background-color: black;
 }
 
@@ -80,7 +80,7 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
   .offers-cards .card {
     width: 420px;
     height: 308px;
@@ -97,7 +97,7 @@
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1440px) {
   .offers-cards .card {
     width: 588px;
   }
