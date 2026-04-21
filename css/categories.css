@@ -9,7 +9,6 @@
 .category-cards .card {
   width: 312px;
   height: 220px;
-  font-size: 24px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;

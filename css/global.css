@@ -37,7 +37,7 @@ section {
   margin: 0 auto;
 }
 
-.hero{
+.hero {
   width: 100%;
 }
 
@@ -58,6 +58,20 @@ section {
   background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.content-title {
+  font-size: 28px;
+}
+
+.content-text {
+  font-size: 20px;
 }
 
 .button {
