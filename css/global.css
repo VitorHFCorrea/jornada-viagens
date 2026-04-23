@@ -37,7 +37,7 @@ section {
   margin: 0 auto;
 }
 
-.hero {
+.hero, .bottom-hero {
   width: 100%;
 }
 
