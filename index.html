@@ -8,20 +8,14 @@
   </head>
   <body>
     <header>
-      <a class="logo" href="index.html" title="Voltar à página inicial">
-        <img
-          class="img-mobile"
-          src="img/compass-icon-white.svg"
-          alt="Bussola símbolo da Jornada Viagens"
-        />
-        <img
-          class="img-desktop"
-          src="img/full-logo-white.svg"
-          alt="Logotipo da Jornada Viagens"
-        />
+      <a class="logo" href="index.html" aria-label="Voltar à página inicial">
+        <img class="img-mobile" src="img/compass-icon-white.svg" alt="" />
+        <img class="img-desktop" src="img/full-logo-white.svg" alt="" />
       </a>
       <div class="nav-menu">
-        <label for="menu"> <img src="img/menu.svg" alt="menu" /> </label>
+        <label for="menu">
+          <img src="img/menu.svg" alt="abrir menu" />
+        </label>
         <input type="checkbox" id="menu" hidden />
         <nav>
           <ul class="list-links">
@@ -144,12 +138,9 @@
             class="card"
             href="#"
             target="_blank"
-            title="Busque pela categoria Pacotes Nacionais"
+            aria-label="Busque pela categoria Pacotes Nacionais"
           >
-            <img
-              src="img/domestic-packages-icon.svg"
-              alt="Ícone de pessoa fazendo trilha"
-            />
+            <img src="img/domestic-packages-icon.svg" alt="" />
             <h3 class="content-title">Pacotes Nacionais</h3>
           </a>
 
@@ -157,12 +148,9 @@
             class="card"
             href="#"
             target="_blank"
-            title="Busque pela categoria Pacotes Internacionais"
+            aria-label="Busque pela categoria Pacotes Internacionais"
           >
-            <img
-              src="img/international-packages-icon.svg"
-              alt="Ícone de avião"
-            />
+            <img src="img/international-packages-icon.svg" alt="" />
             <h3 class="content-title">Pacotes Internacionais</h3>
           </a>
 
@@ -170,12 +158,9 @@
             class="card"
             href="#"
             target="_blank"
-            title="Busque pela categoria Transfer"
+            aria-label="Busque pela categoria Transfer"
           >
-            <img
-              src="img/transfer-icon.svg"
-              alt="Ícone de van para transporte"
-            />
+            <img src="img/transfer-icon.svg" alt="" />
             <h3 class="content-title">Transfer</h3>
           </a>
 
@@ -183,7 +168,7 @@
             class="card"
             href="#"
             target="_blank"
-            title="Busque pela categoria Seguro Viagem"
+            aria-label="Busque pela categoria Seguro Viagem"
           >
             <img src="img/travel-insurance-icon.svg" alt="" />
             <h3 class="content-title">Seguro Viagem</h3>
@@ -327,7 +312,7 @@
       <div class="footer-content">
         <img
           src="img/full-jornada-viagens-logo-white.svg"
-          alt="Logo completa Jornada Viagens"
+          alt="Jornada Viagens"
         />
         <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
         <p>
@@ -338,20 +323,34 @@
       <div class="social">
         <p>Conheça meus trabalhos!</p>
         <div class="social-media-icons">
-          <a href="https://github.com/VitorHFCorrea" target="_blank"
-            ><img src="img/logo-github.svg" alt=""
-          /></a>
-          <a href="https://www.linkedin.com/in/vitorhfc/" target="_blank"
-            ><img src="img/logo-linkedin.svg" alt=""
-          /></a>
+          <a
+            href="https://github.com/VitorHFCorrea"
+            target="_blank"
+            aria-label="GitHub de Vitor Hugo"
+          >
+            <img src="img/logo-github.svg" alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vitorhfc/"
+            target="_blank"
+            aria-label="LinkedIn de Vitor Hugo"
+          >
+            <img src="img/logo-linkedin.svg" alt="" />
+          </a>
           <a
             href="https://cursos.alura.com.br/vitrinedev/vitorhfc"
             target="_blank"
-            ><img class="alura" src="img/logo-alura.svg" alt=""
-          /></a>
-          <a href="https://www.instagram.com/vitorhfcorrea" target="_blank"
-            ><img class="instagram" src="img/logo-instagram.svg" alt=""
-          /></a>
+            aria-label="Vitrine Dev na Alura de Vitor Hugo"
+          >
+            <img class="alura" src="img/logo-alura.svg" alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/vitorhfcorrea"
+            target="_blank"
+            aria-label="Instagram de Vitor Hugo"
+          >
+            <img class="instagram" src="img/logo-instagram.svg" alt="" />
+          </a>
         </div>
       </div>
     </footer>
