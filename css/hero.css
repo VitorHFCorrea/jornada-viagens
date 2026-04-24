@@ -10,7 +10,7 @@
 
 .bottom-hero .hero-img {
   margin-top: 88px;
-  background: url(../img/bottom-hero-mobile.jpg) no-repeat center / cover;
+  background: url(../img/bottom-hero-mobile.jpg) no-repeat top / cover;
 }
 
 .hero p {
@@ -28,7 +28,7 @@
   }
 
   .bottom-hero .hero-img {
-    background: url(../img/bottom-hero-tablet.jpg) no-repeat center / cover;
+    background: url(../img/bottom-hero-tablet.jpg) no-repeat top / cover;
   }
 
   .hero p {
@@ -44,7 +44,7 @@
 
   .bottom-hero .hero-img {
     height: 600px;
-    background: url(../img/bottom-hero-desktop.jpg) no-repeat center / cover;
+    background: url(../img/bottom-hero-desktop.jpg) no-repeat top / cover;
   }
 
   .hero p {
