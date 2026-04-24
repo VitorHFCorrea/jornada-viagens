@@ -1,6 +1,4 @@
 .testimonials-container {
-  display: flex;
-  flex-direction: column;
   gap: 32px;
 }
 
@@ -36,7 +34,7 @@
 }
 
 @media (min-width: 1440px){
-  .testimonials-container{
+  .testimonials .testimonials-container{
     flex-direction: row;
   }
 

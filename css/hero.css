@@ -21,6 +21,31 @@
   line-height: 1.5;
 }
 
+/*Blogpost page*/
+.blog .hero-img{
+  height: 460px;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/hero-blog-mobile.jpg) no-repeat center / cover;
+}
+
+.hero-content{
+  padding: 81px 24px;
+  color: var(--bg-primary-color);
+}
+
+.hero-content h1{
+  font-size: 48px;
+}
+
+.hero-content hr{
+  margin: 16px 0 0;
+}
+
+.hero-content p{
+  text-align: left;
+  padding: 32px 0 0;
+}
+
+
 @media (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
