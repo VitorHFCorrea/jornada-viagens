@@ -32,17 +32,21 @@ body {
   color: var(--text-primary-color);
 }
 
-section, article {
+section,
+article,
+.hero-content,
+aside {
   width: 312px;
   margin: 0 auto;
 }
 
-.hero, .bottom-hero {
+.hero,
+.bottom-hero {
   width: 100%;
 }
 
 .section-title {
-  width: 312px;
+  width: 100%;
   margin: 88px auto 64px;
 }
 
@@ -90,33 +94,34 @@ hr {
   background-color: var(--primary-color);
 }
 
-.flex-column{
+.flex-column {
   display: flex;
   flex-direction: column;
 }
 
 @media (min-width: 768px) {
-  section {
+  section,
+  article,
+  .hero-content,
+  aside {
     width: 648px;
-  }
-
-  .section-title {
-    width: 100%;
-  }
-
-  .section-title h2 {
-    font-size: 32px;
   }
 }
 
 @media (min-width: 1024px) {
-  section {
+  section,
+  article,
+  .hero-content,
+  aside {
     width: 900px;
   }
 }
 
-@media (min-width: 1440px) {
-  section {
+@media (min-width: 1300px) {
+  section,
+  article,
+  .hero-content,
+  aside {
     width: 1200px;
   }
 }

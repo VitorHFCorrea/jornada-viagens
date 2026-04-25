@@ -1,0 +1,59 @@
+.other-posts {
+  margin-bottom: 88px;
+}
+
+.other-posts .osaka,
+.other-posts .hiroshima,
+.other-posts .kyoto {
+  height: 300px;
+}
+
+.other-posts .osaka {
+  background: url(../img/osaka-tablet-desk.jpg) no-repeat 60% center / cover;
+}
+
+.other-posts .hiroshima {
+  background: url(../img/hiroshima-mobile-desk.jpg) no-repeat center / cover;
+}
+
+.other-posts .kyoto {
+  background: url(../img/kyoto-mobile-desk.jpg) no-repeat right / cover;
+}
+
+@media (min-width: 768px) {
+  .other-posts .osaka {
+    background: url(../img/osaka-tablet-desk.jpg) no-repeat 60% 45% / cover;
+  }
+
+  .other-posts .hiroshima {
+    background: url(../img/hiroshima-tablet.jpg) no-repeat center / cover;
+  }
+
+  .other-posts .kyoto {
+    background: url(../img/kyoto-tablet.jpg) no-repeat right / cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .other-posts .osaka {
+    background: url(../img/osaka-tablet-desk.jpg) no-repeat 60% / cover;
+  }
+
+  .other-posts .hiroshima {
+    background: url(../img/hiroshima-tablet.jpg) no-repeat center / cover;
+  }
+
+  .other-posts .kyoto {
+    background: url(../img/kyoto-tablet.jpg) no-repeat right 15% / cover;
+  }
+}
+
+@media (min-width: 1300px){
+  .flex-row{
+    flex-direction: row;
+  }
+
+  .other-posts .button{
+    margin-top: auto;
+  }
+}

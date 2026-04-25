@@ -46,15 +46,15 @@
   width: 36px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1300px) {
   .main-footer {
     display: flex;
     justify-content: space-between;
     padding: 52px 120px;
   }
 
-  .footer-content{
+  .footer-content {
     align-items: flex-start;
-    text-align: start
+    text-align: start;
   }
 }

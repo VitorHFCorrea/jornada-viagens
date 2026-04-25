@@ -49,6 +49,10 @@ nav {
   font-size: 24px;
 }
 
+.list-links li .active{
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .nav-menu {
     margin-top: 0;

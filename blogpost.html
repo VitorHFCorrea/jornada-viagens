@@ -41,25 +41,17 @@
         <nav>
           <ul class="list-links">
             <li>
-              <a href="blogpost.html" target="_blank" aria-label="Acessar Blog"
+              <a href="blogpost.html" class="active" aria-label="Acessar Blog"
                 >Blog</a
               >
             </li>
             <li>
-              <a
-                href="pacotes.html"
-                target="_blank"
-                aria-label="Acessar Pacotes de viagem"
+              <a href="pacotes.html" aria-label="Acessar Pacotes de viagem"
                 >Pacotes de viagem</a
               >
             </li>
             <li>
-              <a
-                href="contato.html"
-                target="_blank"
-                aria-label="Acessar Contato"
-                >Contato</a
-              >
+              <a href="contato.html" aria-label="Acessar Contato">Contato</a>
             </li>
           </ul>
         </nav>
@@ -69,12 +61,14 @@
       <section class="blog hero">
         <div class="hero-img">
           <div class="hero-content">
-            <h1>Blog da Jornada</h1>
-            <hr />
-            <p>
-              Histórias de viagens de nossos clientes. Inspire-se, encontre
-              roteiros e dicas! Qual seu próximo destino?
-            </p>
+            <div class="hero-content-container">
+              <h1>Blog da Jornada</h1>
+              <hr />
+              <p>
+                Histórias de viagens de nossos clientes. Inspire-se, encontre
+                roteiros e dicas! Qual seu próximo destino?
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -84,17 +78,19 @@
           <hr />
         </header>
         <div class="post-content flex-column">
-          <div class="content flex-column">
-            <h3 class="content-title">Chegada</h3>
-            <p class="content-text">
-              Nossa viagem começou no Aeroporto Internacional de Narita,
-              localizado a cerca de 60 km de Tóquio. Após desembarcar e fazer
-              todos os procedimentos de imigração, fomos recebidos pela equipe
-              da Jornada Viagens, que nos conduziu até o nosso hotel.
-            </p>
+          <div class="paragraph flex-column arrive">
+            <div class="arrive-text flex-column">
+              <h3 class="content-title">Chegada</h3>
+              <p class="content-text">
+                Nossa viagem começou no Aeroporto Internacional de Narita,
+                localizado a cerca de 60 km de Tóquio. Após desembarcar e fazer
+                todos os procedimentos de imigração, fomos recebidos pela equipe
+                da Jornada Viagens, que nos conduziu até o nosso hotel.
+              </p>
+            </div>
             <div class="content-img store"></div>
           </div>
-          <div class="content flex-column">
+          <div class="paragraph flex-column">
             <h3 class="content-title">Acomodação</h3>
             <p class="content-text">
               Nos hospedamos no luxuoso Hotel Okura Tokyo, localizado no bairro
@@ -108,23 +104,23 @@
               <figcaption>Vista da cidade da janela do hotel!</figcaption>
             </figure>
           </div>
-          <div class="content flex-column">
+          <div class="paragraph flex-column">
             <h3 class="content-title">Explorando a cidade</h3>
             <p class="content-text">
               Começamos nosso tour pela cidade com uma visita ao famoso Templo
               Sensoji, um dos mais antigos e importantes templos budistas do
               Japão. Caminhamos pela rua comercial Nakamise, onde encontramos
               muitas lojas vendendo artigos típicos japoneses, como quimonos,
-              leques e comidas tradicionais. Em seguida, visitamos o icônico
-              cruzamento de Shibuya, um dos mais movimentados do mundo, onde
-              observamos a sincronia dos pedestres atravessando a rua. No dia
-              seguinte, visitamos o Parque Ueno, que abriga o Museu Nacional de
-              Tóquio, onde pudemos conhecer a história e cultura japonesa. À
-              noite, fomos a um típico Izakaya, um bar japonês que serve uma
-              grande variedade de pratos e bebidas.
+              leques e comidas tradicionais. <br />
+              Em seguida, visitamos o icônico cruzamento de Shibuya, um dos mais
+              movimentados do mundo, onde observamos a sincronia dos pedestres
+              atravessando a rua. <br />No dia seguinte, visitamos o Parque
+              Ueno, que abriga o Museu Nacional de Tóquio, onde pudemos conhecer
+              a história e cultura japonesa. À noite, fomos a um típico Izakaya,
+              um bar japonês que serve uma grande variedade de pratos e bebidas.
             </p>
           </div>
-          <div class="content flex-column">
+          <div class="paragraph flex-column">
             <h3 class="content-title">Compras</h3>
             <p class="content-text">
               Tóquio é famosa por suas lojas de departamento e centros
@@ -136,7 +132,7 @@
               mangás.
             </p>
           </div>
-          <div class="content flex-column">
+          <div class="paragraph flex-column">
             <h3 class="content-title">Gastronomia</h3>
             <p class="content-text">
               Não se pode falar do Japão sem mencionar sua gastronomia. Tivemos
@@ -145,7 +141,7 @@
               tradicionais como o mochi.
             </p>
           </div>
-          <div class="content flex-column">
+          <div class="paragraph flex-column">
             <h3 class="content-title">Concluindo...</h3>
             <p class="content-text">
               Nossa viagem a Tóquio com a agência Jornada Viagens foi uma
@@ -157,6 +153,109 @@
           </div>
         </div>
       </article>
+      <aside class="other-posts">
+        <div class="section-title">
+          <h2>Veja também...</h2>
+          <hr />
+        </div>
+        <div class="destination-items flex-row flex-column">
+          <article class="content flex-column">
+            <div class="destination-img osaka"></div>
+            <h3 class="content-title">Osaka</h3>
+            <p class="content-text">
+              Osaka é uma cidade agitada e moderna no Japão, famosa por sua
+              gastronomia deliciosa e por ser um excelente ponto de partida para
+              explorar outras cidades japonesas próximas.
+            </p>
+            <a
+              class="button"
+              href="#"
+              target="_blank"
+              aria-label="Veja mais detalhes sobre Osaka"
+              >Ver detalhes</a
+            >
+          </article>
+          <article class="content flex-column">
+            <div class="destination-img hiroshima"></div>
+            <h3 class="content-title">Hiroshima</h3>
+            <p class="content-text">
+              Hiroshima é uma cidade no sudoeste do Japão, conhecida
+              mundialmente por ter sido alvo do primeiro bombardeio atômico da
+              história. Hoje, é um símbolo de paz, reconciliação e gastronomia.
+            </p>
+            <a
+              class="button"
+              href="#"
+              target="_blank"
+              aria-label="Veja mais detalhes sobre Hiroshima"
+              >Ver detalhes</a
+            >
+          </article>
+          <article class="content flex-column">
+            <div class="destination-img kyoto"></div>
+            <h3 class="content-title">Kyoto</h3>
+            <p class="content-text">
+              Kyoto é a antiga capital do Japão, conhecida por preservar
+              tradições culturais como templos históricos, jardins tradicionais
+              e cerimônias de chá, proporcionando um mergulho na cultura
+              japonesa.
+            </p>
+            <a
+              class="button"
+              href="#"
+              target="_blank"
+              aria-label="Veja mais detalhes sobre Kyoto"
+              >Ver detalhes</a
+            >
+          </article>
+        </div>
+      </aside>
     </main>
+    <footer class="main-footer">
+      <div class="flex-column footer-content">
+        <img
+          src="img/full-jornada-viagens-logo-white.svg"
+          alt="Jornada Viagens"
+        />
+        <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+        <p>
+          Desenvolvido por Vitor Hugo Farias Corrêa.<br />Projeto de estudos sem
+          fins comerciais.
+        </p>
+      </div>
+      <div class="social">
+        <p>Conheça meus trabalhos!</p>
+        <div class="social-media-icons">
+          <a
+            href="https://github.com/VitorHFCorrea"
+            target="_blank"
+            aria-label="GitHub de Vitor Hugo"
+          >
+            <img src="img/logo-github.svg" alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/vitorhfc/"
+            target="_blank"
+            aria-label="LinkedIn de Vitor Hugo"
+          >
+            <img src="img/logo-linkedin.svg" alt="" />
+          </a>
+          <a
+            href="https://cursos.alura.com.br/vitrinedev/vitorhfc"
+            target="_blank"
+            aria-label="Vitrine Dev na Alura de Vitor Hugo"
+          >
+            <img class="alura" src="img/logo-alura.svg" alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/vitorhfcorrea"
+            target="_blank"
+            aria-label="Instagram de Vitor Hugo"
+          >
+            <img class="instagram" src="img/logo-instagram.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
