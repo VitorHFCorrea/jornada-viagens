@@ -1,6 +1,4 @@
 .testimonials-container {
-  display: flex;
-  flex-direction: column;
   gap: 32px;
 }
 
@@ -24,7 +22,6 @@
 .testimonials .comment .rating {
   line-height: 32px;
   font-size: 42px;
-
   color: var(--secondary-color);
 }
 
@@ -35,17 +32,15 @@
   font-style: normal;
 }
 
-@media (min-width: 1440px){
-  .testimonials-container{
+@media (min-width: 1300px) {
+  .testimonials .testimonials-container {
     flex-direction: row;
   }
 
-  .testimonials .comment{
+  .testimonials .comment {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 384px;
   }
-
-
 }

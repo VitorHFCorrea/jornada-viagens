@@ -1,6 +1,4 @@
 .offers-cards {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 24px;
 }
@@ -97,7 +95,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1300px) {
   .offers-cards .card {
     width: 588px;
   }

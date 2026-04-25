@@ -1,24 +1,49 @@
-.hero .hero-img,
-.bottom-hero .hero-img {
+.home .hero-img {
   height: 400px;
-  width: 100%;
-}
-
-.hero .hero-img {
   background: url(../img/hero-mobile.jpg) no-repeat center / cover;
 }
 
 .bottom-hero .hero-img {
   margin-top: 88px;
-  background: url(../img/bottom-hero-mobile.jpg) no-repeat center / cover;
+  background: url(../img/bottom-hero-mobile.jpg) no-repeat top / cover;
 }
 
 .hero p {
-  padding: 88px 24px 0px;
-  font-weight: var(--text-weight);
   font-size: 20px;
-  text-align: center;
   line-height: 1.5;
+  width: 312px;
+}
+
+.home p {
+  margin: 0 auto;
+  padding-top: 88px;
+  text-align: center;
+}
+
+/*Blogpost page*/
+.blog .hero-img {
+  height: 460px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/hero-blog-mobile.jpg) no-repeat center / cover;
+}
+
+.hero-content-container {
+  padding: 81px 0px;
+  text-align: left;
+  color: var(--bg-primary-color);
+}
+
+.hero-content-container h1 {
+  font-size: 48px;
+}
+
+.hero-content-container hr {
+  margin: 16px 0 0;
+}
+
+.hero-content-container p {
+  margin-top: 32px;
 }
 
 @media (min-width: 768px) {
@@ -28,12 +53,26 @@
   }
 
   .bottom-hero .hero-img {
-    background: url(../img/bottom-hero-tablet.jpg) no-repeat center / cover;
+    background: url(../img/bottom-hero-tablet.jpg) no-repeat top / cover;
   }
 
   .hero p {
-    padding: 88px 60px;
     font-size: 32px;
+    width: 579px;
+  }
+
+  .home p {
+    width: 648px;
+    padding-top: 88px;
+  }
+
+  /*Blogpost page*/
+  .blog .hero-img {
+    background: url(../img/hero-blog-tablet-desk.jpg) no-repeat center / cover;
+  }
+
+  .hero-content-container {
+    padding: 158px 0px;
   }
 }
 
@@ -44,10 +83,22 @@
 
   .bottom-hero .hero-img {
     height: 600px;
-    background: url(../img/bottom-hero-desktop.jpg) no-repeat center / cover;
+    background: url(../img/bottom-hero-desktop.jpg) no-repeat top / cover;
   }
 
-  .hero p {
-    padding: 104px 120px;
+  .home p {
+    padding-top: 104px;
+    width: 900px;
+  }
+
+  /*Blogpost page*/
+  .blog .hero-img {
+    background: url(../img/hero-blog-tablet-desk.jpg) no-repeat center / cover;
+  }
+}
+
+@media (min-width: 1300px) {
+  .home p {
+    width: 1200px;
   }
 }

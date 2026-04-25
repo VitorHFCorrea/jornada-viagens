@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--bg-tertiary-color);
   display: flex;
   justify-content: space-between;
@@ -49,6 +49,10 @@ nav {
   font-size: 24px;
 }
 
+.list-links li .active{
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .nav-menu {
     margin-top: 0;
@@ -72,17 +76,17 @@ nav {
     margin: 0;
   }
 
-  .nav-menu a:hover{
+  .nav-menu a:hover {
     color: var(--primary-color);
   }
 }
 
 @media (min-width: 1024px) {
-  header{
+  .main-header {
     padding: 38px 120px;
   }
-  
-  .logo{
+
+  .logo {
     width: 260px;
   }
 
@@ -95,8 +99,8 @@ nav {
   }
 }
 
-@media (min-width: 1920px){
-  header{
+@media (min-width: 1920px) {
+  .main-header {
     padding: 38px 160px;
   }
 }

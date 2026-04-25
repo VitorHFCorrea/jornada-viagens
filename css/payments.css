@@ -36,14 +36,13 @@
   }
 }
 
-
-@media (min-width: 1440px) {
-  .content-container{
+@media (min-width: 1300px) {
+  .content-container {
     display: flex;
     justify-content: space-between;
   }
 
-  .payments .content{
+  .payments .content {
     width: 384px;
     padding-right: 26px;
   }
@@ -52,7 +51,7 @@
     width: 285px;
   }
 
-  .payments .image-gallery{
+  .payments .image-gallery {
     margin-top: 0px;
     width: 790px;
   }
