@@ -21,15 +21,21 @@
 }
 
 /*Blogpost page*/
-.blog .hero-img {
+.blog .hero-img,
+.packages .hero-img,
+.contact .hero-img {
   height: 460px;
+  display: flex;
+  align-items: center;
+}
+
+.blog .hero-img {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/hero-blog-mobile.jpg) no-repeat center / cover;
 }
 
 .hero-content-container {
-  padding: 81px 0px;
   text-align: left;
   color: var(--bg-primary-color);
 }
@@ -44,6 +50,18 @@
 
 .hero-content-container p {
   margin-top: 32px;
+}
+
+/*Packages page*/
+.packages .hero-img {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/fuji-mobile-tablet.jpg) no-repeat 85% / cover;
+}
+
+.packages.bottom-hero .hero-img {
+  background: url(../img/bottom-hero-packages-mobile.jpg) no-repeat center /
+    cover;
 }
 
 @media (min-width: 768px) {
@@ -74,6 +92,18 @@
   .hero-content-container {
     padding: 158px 0px;
   }
+
+  /*Packages page*/
+  .packages .hero-img {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../img/fuji-mobile-tablet.jpg) no-repeat 85% / cover;
+  }
+
+  .packages.bottom-hero .hero-img {
+    background: url(../img/bottom-hero-packages-tablet-desk.jpg) no-repeat 40% /
+      cover;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -95,10 +125,24 @@
   .blog .hero-img {
     background: url(../img/hero-blog-tablet-desk.jpg) no-repeat center / cover;
   }
+
+  /*Packages page*/
+  .packages .hero-img {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../img/fuji-desktop.jpg) no-repeat 75% / cover;
+  }
 }
 
 @media (min-width: 1300px) {
   .home p {
     width: 1200px;
+  }
+
+  /*Packages page*/
+  .packages .hero-img {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../img/fuji-desktop.jpg) no-repeat 75% / cover;
   }
 }
