@@ -1,3 +1,7 @@
+.payments .content-title span {
+  font-size: 40px;
+}
+
 .payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -22,6 +26,19 @@
   height: 182px;
 }
 
+/*Packages Page*/
+.packages.payments .image-gallery .first {
+  background: url(../img/temple-mobile.jpg) no-repeat center / cover;
+}
+
+.packages.payments .image-gallery .second {
+  background: url(../img/city-mobile.jpg) no-repeat center / cover;
+}
+
+.packages.payments .image-gallery .third {
+  background: url(../img/corridor-mobile.jpg) no-repeat center / cover;
+}
+
 @media (min-width: 768px) {
   .image-gallery .first {
     background: url(../img/gallery1-tablet.jpg) no-repeat bottom / cover;
@@ -33,6 +50,19 @@
 
   .image-gallery .third {
     background: url(../img/gallery3-tablet.jpg) no-repeat bottom / cover;
+  }
+
+  /*Packages Page*/
+  .packages.payments .image-gallery .first {
+    background: url(../img/temple-tablet-desk.jpg) no-repeat top / cover;
+  }
+
+  .packages.payments .image-gallery .second {
+    background: url(../img/city-tablet-desk.jpg) no-repeat top / cover;
+  }
+
+  .packages.payments .image-gallery .third {
+    background: url(../img/corridor-tablet-desk.jpg) no-repeat top / cover;
   }
 }
 
