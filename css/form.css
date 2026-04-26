@@ -1,0 +1,94 @@
+.contact.hero .hero-img {
+  background: url(../img/contact-hero-mobile-tablet.jpg) no-repeat 80% / cover;
+}
+
+.contact-form .content-text {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: 100%;
+  max-width: 790px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  display: none;
+}
+
+.contact-form input {
+  border: none;
+  border-bottom: 2px solid var(--border-color);
+  height: 38px;
+}
+
+.contact-form .text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-form textarea {
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  height: 90px;
+  padding: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+input::placeholder,
+textarea::placeholder,
+label {
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: var(--text-tertiary-color);
+}
+
+.contact-form .button {
+  font-family: inherit;
+  width: 100%;
+  margin-top: -32px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+  color: var(--text-primary-color);
+}
+
+.contact.bottom-hero .hero-img {
+  background: url(../img/contact-bottom-hero-mobile.jpg) no-repeat center /
+    cover;
+}
+
+@media (min-width: 768px) {
+  .contact-form .content-text {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .contact-form .button {
+    width: 280px;
+    align-self: center;
+  }
+
+  .contact.bottom-hero .hero-img {
+    background: url(../img/contact-bottom-hero-tablet.jpg) no-repeat center /
+      cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact.bottom-hero .hero-img {
+    background: url(../img/contact-bottom-hero-desktop.jpg) no-repeat center 35% /
+      cover;
+  }
+}
